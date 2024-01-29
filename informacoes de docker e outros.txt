@@ -1,0 +1,9 @@
+Instalacao KeyCloak
+
+docker run --name keyclock -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin -p 8180:8080 quay.io/keycloak/keycloak:17.0.0 start-dev
+
+-----
+
+Url de gerar Token Keycloak
+
+http://localhost:8180/realms/quarkus/protocol/openid-connect/token
