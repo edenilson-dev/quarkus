@@ -2,9 +2,9 @@ package com.elsistemas.service;
 
 import com.elsistemas.dto.ProductDto;
 import com.elsistemas.repository.ProductRepository;
-import jakarta.enterprise.context.ApplicationScoped;
 import lombok.RequiredArgsConstructor;
 
+import javax.enterprise.context.ApplicationScoped;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;

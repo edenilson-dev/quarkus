@@ -1,4 +1,4 @@
-package com.elsistemas;
+package org.acme;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 
